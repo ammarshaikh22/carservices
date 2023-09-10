@@ -10,9 +10,10 @@
     height: 130vh;
 }
 .navbar{
-    width: 1200px;
-    height: 75px;
+    width: 1350px;
+    height: 90px;
     margin: auto;
+    background-color: black;
 }
 .icon{
     width: 200px;
@@ -20,8 +21,9 @@
     height: 70px;
 }
 .logo{
-    width: 80px;
+    width: 90px;
     margin-top: 10px;
+    margin-left: 20px;
     float: left;
 }
 .menu{
@@ -38,7 +40,12 @@ ul{
 }
 ul li{
     margin-left: 65px;
-    margin-top: 30px;
+    margin-top: 40px;
     list-style: none;
     font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
 }
