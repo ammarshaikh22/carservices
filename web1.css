@@ -141,3 +141,47 @@ ul li a:hover{
     color: red;
     font-size: 75px;
 }
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 50px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    margin-top: 30px;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.contant input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+
+
