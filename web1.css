@@ -11,7 +11,7 @@
 }
 .navbar{
     width: 1350px;
-    height: 90px;
+    height: 95px;
     margin: auto;
     background-color: black;
 }
@@ -58,11 +58,86 @@ ul li a:hover{
 .search{
     width: 330px;
     float: left;
-    margin-left: 270px;
+    margin-left: 280px;
+    margin-top: 25px;
 }
 .srch{
-    width: 200px;
+    width: 230px;
     height: 40px;
     background: transparent;
     border: 1px solid red;
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.button{
+    border: 1px solid red;
+    padding-left: 20px;
+    background-color: red;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button:focus{
+    outline: none;
+}
+.search:focus{
+    outline: none;
+}
+
+.contant{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+ .contant h1{
+    font-size: 68px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    margin-top: 7%;
+}
+.contant .pag{
+    padding-left: 25px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+}
+
+.contant .bu{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+
+.contant .bu a{
+    color: black;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.bu:hover{
+    background-color: red;
+
+}
+
+.contant span{
+    color: red;
+    font-size: 75px;
 }
