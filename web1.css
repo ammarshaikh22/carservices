@@ -146,7 +146,7 @@ ul li a:hover{
 
 .form{
     width: 270px;
-    height: 360px;
+    height: 395px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: 50px;
@@ -192,18 +192,18 @@ ul li a:hover{
     width: 240px;
     height: 40px;
     margin-top: 30px;
-    background: red;
+    background: white;
     border-radius: 10px;
     font-size: 18px;
     border: none;
     cursor: pointer;
-    color: white;
+    color: red;
 }
 
 
 .but:hover{
-    background: white;
-    color: red;
+    background: red;
+    color: white;
 
 }
 .but a{
@@ -230,3 +230,17 @@ ul li a:hover{
     text-align: center;
 }
 
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: red;
+}
