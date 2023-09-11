@@ -244,3 +244,114 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: red;
 }
+
+
+
+
+
+.main2{
+    width: 1400px;
+    height: 600px;
+    background: gray;
+}
+
+.contant2 h1{
+    color: red;
+    font-size: 60px;
+    padding-left: 40px;
+    padding-top: 100px;
+    font-weight: 30;
+}
+
+span{
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+}
+.contant2 .p1{
+    padding-left: 45px;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.button1{
+    width: 200px;
+    height: 50px;
+    margin-left: 45px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    color: red;
+}
+.button1:hover{
+    background: red;
+    color: white;
+}
+.button1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.image{
+    margin-left: 600px;
+    margin-top: -400px;
+}
+
+
+
+
+
+
+.same{
+    width: 1400px;
+    height: 600px;
+    background: white;
+}
+
+.contant3 h2{
+    color: red;
+    font-size: 60px;
+    padding-left: 850px;
+    padding-top: 100px;
+    font-weight: 30;
+}
+
+.span2{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+}
+.contant3 .p2{
+    padding-left: 850px;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.button2{
+    width: 200px;
+    height: 50px;
+    margin-left: 850px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    color: red;
+}
+.button2:hover{
+    background: red;
+    color: white;
+}
+.button2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.image2{
+    margin-left: -10px;
+    margin-top: -400px;
+    padding-left: 30px;
+}
+
