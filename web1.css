@@ -381,8 +381,8 @@ span{
 
 .box .h5{
     text-align: center;
-    color: red;
-    font-size: 35px;
+    color: white;
+    font-size: 40px;
     font-weight: bolt;
     padding-top: 10px;
 }
@@ -424,14 +424,13 @@ span{
 
 .box2{
     float: left;
-    margin-top: 150px;
     background: lightslategray;
     width: 330px;
     height: 450px;
     margin-left: 380px;
     padding-bottom: 10px;
     border-radius: 5px;
-    margin-top: -441px;
+    margin-top: -449px;
 }
 .imagebox2{
     padding: 15px;
@@ -439,8 +438,8 @@ span{
 
 .box2 .h6{
     text-align: center;
-    color: red;
-    font-size: 35px;
+    color: white;
+    font-size: 40px;
     font-weight: bolt;
     padding-top: 10px;
 }
@@ -486,7 +485,7 @@ span{
     margin-left: 380px;
     padding-bottom: 10px;
     border-radius: 5px;
-    margin-top: -441px;
+    margin-top: -450px;
 }
 .imagebox3{
     padding: 15px;
@@ -494,8 +493,8 @@ span{
 
 .box3 .h7{
     text-align: center;
-    color: red;
-    font-size: 35px;
+    color: white;
+    font-size: 40px;
     font-weight: bolt;
     padding-top: 10px;
 }
