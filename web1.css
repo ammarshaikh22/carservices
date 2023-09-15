@@ -11,7 +11,7 @@
     height: 130vh;
 }
 .navbar{
-    width: 1350px;
+    width: 100%;
     height: 95px;
     margin: auto;
     background-color: black;
@@ -250,7 +250,7 @@ ul li a:hover{
 
 
 .main2{
-    width: 1400px;
+    width: 100%;
     height: 700px;
     background: lightslategray;
 }
@@ -305,7 +305,7 @@ span{
 
 
 .same{
-    width: 1400px;
+    width: 100%;
     height: 700px;
     background: white;
 }
@@ -357,7 +357,7 @@ span{
 
 
 .container{
-    width: 1400px;
+    width: 100%;
     height: 120vh;
     background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(bakground.jpg);
     background-attachment: fixed;
@@ -368,7 +368,7 @@ span{
 .box{
     float: left;
     margin-top: 150px;
-    background: lightslategray;
+    background: black;
     width: 330px;
     height: 450px;
     padding-bottom: 20px;
@@ -424,7 +424,7 @@ span{
 
 .box2{
     float: left;
-    background: lightslategray;
+    background: black;
     width: 330px;
     height: 450px;
     margin-left: 380px;
@@ -479,7 +479,7 @@ span{
 .box3{
     float: left;
     margin-top: 150px;
-    background: lightslategray;
+    background: black;
     width: 330px;
     height: 450px;
     padding-bottom: 20px;
