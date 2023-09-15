@@ -580,3 +580,22 @@ span{
     font-size: 16px;
     font-weight: bold;
 }
+
+
+
+.menu2{
+    margin-left: 500px;
+    width: 400px;
+    height: 100px;
+    margin-top: -300PX;
+}
+ol{
+    justify-content: center;
+    align-items: center;
+    float: left;
+    display: list-item;
+}
+ol li{
+    list-style: none;
+    
+}
