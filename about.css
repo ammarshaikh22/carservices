@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container2{
+   width: 100%;
+    background-image: url(about\ pic.png);
+    background-position: center; 
+    background-size: cover;
+    height: 130vh;
+}
+.navbar2{
+    width: 100%;
+    height: 95px;
+    margin: auto;
+    background-color: black;
+}
+.icon2{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo2{
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+.about-menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    margin-left: 65px;
+    margin-top: 40px;
+    list-style: none;
+    font-size: 14px;    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: 16px;
+}
+
+ul li  a:hover{
+    color: red;
+}
+
+
+.search2{
+    width: 330px;
+    float: left;
+    margin-left: 280px;
+    margin-top: 25px;
+}
+.srch2{
+    width: 230px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid red;
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+::placeholder{
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.button2{
+    border: 1px solid red;
+    padding-left: 20px;
+    background-color: red;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button:focus{
+    outline: none;
+}
+.search:focus{
+    outline: none;
+}
+
+.contant{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    float: left;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+ .contant h1{
+    font-size: 68px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    margin-top: 7%;
+    color: red;
+}
+
+.main1{
+    width: 100%;
+    height: 170vh;
+    background-image: linear-gradient(#1c2122, #748284);
+    position: relative;
+}
+.container2{
+    align-items: center;
+    width: 100%;
+}
+.car1{
+    float: left;
+    margin-top: 80px;
+    margin-left: 30px;
+    display: flex;
+}
+.carh1{
+    align-content: center;
+    text-align: left;
+   padding: 140px 150px 0 0;
+   line-height: 35px;
+   float: right;
+   font-size: 35px;
+   font-weight: bolder;
+   font-family: Georgia;
+   color: red;
+}
+.carp1{
+    align-content: center;
+    text-align: left;
+    padding: 40px 70px 0 0; 
+    float: right;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: arial;
+    color: white;
+}
+
+.main3{
+    width: 100%;
+    height: 170vh;
+    background-color: #748284;
+    position: relative;
+}
+
+.container3{
+    align-items: center;
+    width: 100%;
+}
+.carh2{
+    text-align: center;
+}
