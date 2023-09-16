@@ -5,7 +5,7 @@
 .container2{
    width: 100%;
     background-image: url(about\ pic.png);
-    background-position: center; 
+    background-position: center;
     background-size: cover;
     height: 130vh;
 }
@@ -26,10 +26,10 @@
     margin-left: 20px;
     float: left;
 }
-.about-menu{
+.menu{
     width: 400px;
     float: left;
-    height: 70px;
+    height: 100px;
 }
 
 ul{
@@ -38,12 +38,11 @@ ul{
     justify-content: center;
     align-items: center;
 }
-
 ul li{
     margin-left: 65px;
     margin-top: 40px;
     list-style: none;
-    font-size: 14px;    
+    font-size: 14px;
 }
 
 ul li a{
@@ -51,13 +50,10 @@ ul li a{
     color: white;
     font-weight: bold;
     transition: 0.4s ease-in-out;
-    font-size: 16px;
 }
-
-ul li  a:hover{
+ul li a:hover{
     color: red;
 }
-
 
 .search2{
     width: 330px;
@@ -74,12 +70,7 @@ ul li  a:hover{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-::placeholder{
-    color: white;
-    font-weight: bold;
-    padding-left: 20px;
-}
-.button2{
+.button3{
     border: 1px solid red;
     padding-left: 20px;
     background-color: red;
@@ -106,8 +97,8 @@ ul li  a:hover{
     color: white;
     position: relative;
     float: left;
-    margin-top: -30px;
-    margin-left: 50px;
+    margin-top: -50px;
+    margin-left: 60px;
 }
 
  .contant h1{
@@ -118,9 +109,11 @@ ul li  a:hover{
     color: red;
 }
 
+
+
 .main1{
     width: 100%;
-    height: 170vh;
+    height: 80vh;
     background-image: linear-gradient(#1c2122, #748284);
     position: relative;
 }
@@ -157,17 +150,96 @@ ul li  a:hover{
     color: white;
 }
 
-.main3{
+.main2{
     width: 100%;
-    height: 170vh;
-    background-color: #748284;
+    height: 130vh;
+    background: #748284;
     position: relative;
 }
-
 .container3{
-    align-items: center;
     width: 100%;
+    height: auto;
+    align-items: center;
 }
-.carh2{
+.carh3{
     text-align: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 60px;
+    color: white;
 }
+
+.carp2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.box1{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 50px 0 0 160px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+}
+.box-pic{
+    width: 150px;
+    padding: -10px 10px 0 10px;
+}
+.box-p{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box2{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 50px 0 0 530px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+}
+.box-pic{
+    width: 150px;
+    padding: -10px 10px px 10px;
+}
+.box-p{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.box3{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 50px 0 0 900px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+}
+.box-pic{
+    width: 150px;
+    padding: -10px 10px px 10px;
+}
+.box-p{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
