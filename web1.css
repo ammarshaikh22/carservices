@@ -360,17 +360,34 @@ span{
 .container{
     width: 100%;
     height: 120vh;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%),url(background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background: lightslategray; 
 }
+
+.card-content0{
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 70px;
+}
+.upper-h1{
+    font-size: 70px;
+    font-family: arial;
+    font-weight: bolder;
+}
+.upper-p1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
 .card{
+    
     width: 400px;
     position: relative;
     overflow: hidden;
-    left: 100px;
-    top: 100px;
+    left: 40px;
+    top: 140px;
 }
 .card img{
     width: 100%;
@@ -387,7 +404,7 @@ span{
     left: 0;
     height: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px 20px 40px;
     box-sizing: border-box;
     transition: all 0.5s;
     border-radius: 5px;
@@ -398,6 +415,75 @@ span{
     border-radius: 5px;
     border: none;
 }
+
+.card2{
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    left: 470px;
+    top: -130px;
+}
+.card2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+}
+.card-content2{
+    width: 100%;
+    background: rgba(0,0,255,0.5);
+    color: white;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    border-radius: 5px;
+    border: none;
+}
+.card2:hover .card-content2{
+    top: 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.card3{
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    left: 900px;
+    top: -400px;
+}
+.card3 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+}
+.card-content3{
+    width: 100%;
+    background: rgba(0,0,255,0.5);
+    color: white;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    border-radius: 5px;
+    border: none;
+}
+.card3:hover .card-content3{
+    top: 0;
+    border-radius: 5px;
+    border: none;
+}
+
 
    .container2{
         width: 100%;
